@@ -43,9 +43,8 @@ export default function TabLayout() {
         name="home"
         options={{
           title: 'Home',
-          headerShown: false,
-          presentation: 'modal',
-              animationTypeForReplace: 'pop',
+              headerShown: false,
+              animationTypeForReplace: 'push',
               animation:'slide_from_right',
           tabBarIcon: ({color, focused}) => {
              return <TabIcon 

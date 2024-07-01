@@ -5,7 +5,7 @@ import CustomTextInput from './CustomTextInput'
 const SearchInput = () => {
   return (
     <View className='p-6'>
-      <Text>SearchInput</Text>
+      <Text className='text-white text-xl'>SearchInput</Text>
       <CustomTextInput secureTextEntry iconName='search' placeholderText='Search for a video topic'/>
     </View>
   )

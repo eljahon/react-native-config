@@ -83,9 +83,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.myjop'
+    namespace 'com.anonymous.pomodoro'
     defaultConfig {
-        applicationId 'com.anonymous.myjop'
+        applicationId 'com.anonymous.pomodoro'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

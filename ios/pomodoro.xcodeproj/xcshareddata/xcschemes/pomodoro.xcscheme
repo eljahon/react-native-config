@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "myjop.app"
-               BlueprintName = "myjop"
-               ReferencedContainer = "container:myjop.xcodeproj">
+               BuildableName = "pomodoro.app"
+               BlueprintName = "pomodoro"
+               ReferencedContainer = "container:pomodoro.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "myjopTests.xctest"
-               BlueprintName = "myjopTests"
-               ReferencedContainer = "container:myjop.xcodeproj">
+               BuildableName = "pomodoroTests.xctest"
+               BlueprintName = "pomodoroTests"
+               ReferencedContainer = "container:pomodoro.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "myjop.app"
-            BlueprintName = "myjop"
-            ReferencedContainer = "container:myjop.xcodeproj">
+            BuildableName = "pomodoro.app"
+            BlueprintName = "pomodoro"
+            ReferencedContainer = "container:pomodoro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "myjop.app"
-            BlueprintName = "myjop"
-            ReferencedContainer = "container:myjop.xcodeproj">
+            BuildableName = "pomodoro.app"
+            BlueprintName = "pomodoro"
+            ReferencedContainer = "container:pomodoro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

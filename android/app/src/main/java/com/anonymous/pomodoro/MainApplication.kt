@@ -1,4 +1,4 @@
-package com.anonymous.myjop
+package com.anonymous.pomodoro
 
 import android.app.Application
 import android.content.res.Configuration

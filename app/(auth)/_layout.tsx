@@ -6,13 +6,15 @@ import { StatusBar } from 'expo-status-bar'
 const AuthLayout = () => {
   return (
     <>
-    <Stack>
+    <Stack initialRouteName='sign-in'>
 
 
     <Stack.Screen 
       name='sign-in'
       options={
         {
+              animationTypeForReplace: 'push',
+              animation:'slide_from_right',
           headerShown: false
         }
       }
@@ -21,7 +23,9 @@ const AuthLayout = () => {
       name='sign-up'
       options={
         {
-          headerShown: false
+          headerShown: false,
+          animationTypeForReplace: 'push',
+              animation:'slide_from_right',
         }
       }
       />

@@ -1,4 +1,4 @@
-rootProject.name = 'my-jop'
+rootProject.name = 'pomodoro'
 
 dependencyResolutionManagement {
   versionCatalogs {

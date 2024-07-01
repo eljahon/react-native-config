@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "my-jop",
-    "slug": "my-jop",
+    "name": "pomodoro",
+    "slug": "pomodoro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "pomodoro",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -14,15 +14,15 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.myjop",
-      "package":"com.aoura.react_narive"
+      "bundleIdentifier": "com.anonymous.pomodoro",
+      "package": "com.aoura.react_narive"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.myjop"
+      "package": "com.anonymous.pomodoro"
     },
     "web": {
       "bundler": "metro",
@@ -35,6 +35,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0ae97f91-ab49-478e-9abd-d62ec70c893f"
+      }
     }
   }
 }

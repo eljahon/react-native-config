@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, Text, TouchableOpacity, ActivityIndicator } from 'react-native'
 import React, { FC, ReactNode } from 'react'
 import { IButton } from '@/types'
 
@@ -10,9 +10,10 @@ const CustomButton:FC<IButton> = ({title, handlePross, textStyle, titleStyle, is
         activeOpacity={0.7}
         disabled={isLoading}
     >
-        <Text className={`text-primary font-psemibold text-lg ${textStyle}`}>
+        {!isLoading&&<Text className={`text-primary font-psemibold text-lg ${textStyle}`}>
             {title}
-        </Text>
+        </Text>}
+        {isLoading&&<ActivityIndicator size='small' color='#fff'/>}
     </TouchableOpacity>
   )
 }

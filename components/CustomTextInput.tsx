@@ -4,17 +4,19 @@ import { ITextInput } from '@/types'
 import { icons } from '@/constants'
 
 const CustomTextInput:FC<ITextInput> = (props) => {
-    const {inputValue,inputError, placeholderText,textLabel,outStyle,secureTextEntry,isPassword,iconName} = props;
+    const {inputValue,inputError, placeholderText,textLabel,outStyle,secureTextEntry,isPassword,iconName,onChangeText} = props;
     const [isEye, setIsEye] = useState<boolean>(true)
   return (
     <View className={`${outStyle}`}>
-      <Text className='text-white font-medium text-[16px]'>{textLabel}</Text>
+      <Text className={`text-white font-medium text-[16px] ${inputError ? 'text-red-500' : ''}`}>{textLabel}</Text>
 
-      <View className={`bg-black-200 mt-2 rounded-lg flex-row  focus:border-secondary-100 focus:border`}>
+      <View className={`bg-black-200 mt-2 rounded-lg flex-row  focus:border-secondary-100 focus:border ${inputError ? 'border-red-500 border' : ''}`}>
       <TextInput 
           className='p-4 text-white text-[16px] font-semibold w-11/12 h-full' 
           passwordRules={placeholderText} 
           placeholder={placeholderText}
+          value={inputValue}
+          onChangeText={onChangeText}
           secureTextEntry={isPassword&&secureTextEntry? isEye : !isEye}
           placeholderTextColor='#7B7B8B'
       />
